@@ -18,4 +18,4 @@ pip install subprocess
 
 pip install time
 
-Some module deafult install in you ide,i am use pycharm..!
+Some module deafult install in your ide,i am use pycharm..!
